@@ -23,15 +23,15 @@ var background_imageTag;
 
 function add() {
     background_imageTag = new Image();
-    background_imageTag.onload = uploadBackground();
+    background_imageTag.onload = uploadBackground;
     background_imageTag.src = background_image;
 
     car1Tag = new Image();
-    car1Tag.onload = uploadCar1();
+    car1Tag.onload = uploadCar1;
     car1Tag.src = car1_image;
 
     car2Tag = new Image();
-    car2Tag.onload = uploadCar2();
+    car2Tag.onload = uploadCar2;
     car2Tag.src = car2_image;
 
 
